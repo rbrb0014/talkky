@@ -6,8 +6,8 @@ import org.springframework.scheduling.annotation.EnableScheduling
 
 @EnableScheduling
 @SpringBootApplication
-class RealTimeChatApplication
+class Talkky
 
 fun main(args: Array<String>) {
-    runApplication<RealTimeChatApplication>(*args)
+    runApplication<Talkky>(*args)
 }

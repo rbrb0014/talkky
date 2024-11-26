@@ -15,5 +15,4 @@ class WebSocketConfig(
         registry.addHandler(socketHandler, "/chat")
             .setAllowedOrigins("*")
     }
-
 }
